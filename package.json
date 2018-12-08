@@ -4,6 +4,7 @@
   "description": "chat",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/zzm1/we-chat/issues"
   },
-  "homepage": "https://github.com/zzm1/we-chat#readme"
+  "homepage": "https://github.com/zzm1/we-chat#readme",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "koa": "^2.6.2",
+    "koa-better-body": "^3.0.4",
+    "koa-convert": "^1.2.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.3.15"
+  }
 }
